@@ -1,0 +1,51 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background: url(images/background-camara.jpg);
+
+}
+
+header, section, footer, div, aside {
+    margin:10px auto;
+    width:70%;
+    padding:5px 15px 5px 15px;
+    border-radius:10px;
+}
+
+header {
+    background: #B31510;
+}
+
+section {
+    background: #FF9B82;
+}
+
+footer {
+    background: #61FFCB;
+}
+
+aside {
+    background:#FF6E4A;
+}
+
+nav li {
+    list-style-type:none;
+    float: left;
+}
+
+nav a {
+    background: #B31510;
+    color: black;
+    text-decoration:none;
+    padding:5px;
+}
+
+nav a:hover {
+    background: #FF9B82;
+}
+
+div {
+    background: #129469;
+}
