@@ -35,7 +35,7 @@ window.onload = function(){
     const hamburger = document.getElementById("hamburger");
     hamburger.onclick = toggleNav;
 
-    // hide more infor paragraph on page load
+    // hide more info paragraph on page load
     const expandInfo = document.getElementById("expandInfo");
     expandInfo.hidden = true;
 
