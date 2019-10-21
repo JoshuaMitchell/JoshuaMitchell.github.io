@@ -3,7 +3,6 @@
 function displayAsciiConversion() {
     let asciiResults = document.getElementById("word-results");
     let charInput = document.getElementById("word-input").value;
-    charInput = charInput;
     let s = "";
 
     for (let i = 0; i < charInput.length; i++) {

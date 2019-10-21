@@ -11,24 +11,22 @@ h1 {
     text-align: center;
 }
 
-.cols {
-    display: flex;
+.boxes {
     flex-basis: 100%;
-    flex: 1; 
 } 
 
-.ascii-col, .sum-col {
+.quote-box, .lottery-box {
     background:#269EDC;
     padding: 15px;
     border-radius: 10px;
     margin: auto;
 }
 
-.ascii-col {
+.quote-box {
     flex-basis: 40%;
 }
 
-.sum-col {
+.lottery-box {
     flex-basis: 40%;
 }
 
@@ -47,16 +45,8 @@ button {
 }
 
 @media (min-width:900px) {
-    #container {
+    #container, .boxes {
         display: flex;
         justify-content:space-around;
-    }
-}
-
-@media all and (max-width:500px){
-    #container {
-        display:flex;
-        flex-direction:column;
-        justify-content: space-around;
     }
 }
