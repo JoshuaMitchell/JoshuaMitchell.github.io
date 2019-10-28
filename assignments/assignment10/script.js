@@ -32,19 +32,16 @@ function lotteryGame() {
     this.after(ranArr);
 
     let resultSpan = document.getElementsByClassName("match-results");
-    spanArr = [
-        "not a match",
-        "match"
-    ];
     for (let i = 0; i < usrArr.length; i++) {
         for (let j = 0; j < ranArr.length; j++) {
             if (usrArr[i] === ranArr[i]) {
-                resultSpan.innerHTML = spanArr[0];
+                resultSpan[i].textContent = "match";
             } else {
-                resultSpan.innerHTML = spanArr[1];
+                resultSpan[i].textContent = "not a match";
             }
         }
     }
+
     let lottoResult = document.getElementById("final-result");
     if (usrArr === ranArr) {
         lottoResult.innerHTML = `You win!`
