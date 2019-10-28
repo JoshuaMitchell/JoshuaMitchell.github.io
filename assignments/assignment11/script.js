@@ -31,7 +31,7 @@ class Book {
 }
 
 // array
-books=[];
+let books=[];
 books.push(new Book("The Fellowship of the Ring", "J. R. R. Tolkien", "Epic High-Fantasy", "1954", "4.8"));
 books.push(new Book("Animal Farm", "George Orwell", "Political Satire", "1945", "4.2"));
 books.push(new Book("American Born Chinese", "Gene Luen Yang", "Graphic Novel", "2006", "4.2"));
