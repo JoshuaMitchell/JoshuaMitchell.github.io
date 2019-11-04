@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background:#333333;
+}
+
+#container {
+    background-color: #3399FF;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.movie {
+    background-color: #2778C7;
+    padding: 10px;
+    margin: 10px auto;
+    width: 95%;
+}
+
+p {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+
+}
+
+ul {
+    display: flex;
+    list-style-type:none;
+}
+
+img {
+    margin: 5px 5px;
+    flex-basis: 20%;
+}
